@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qtls"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/Yuzuki616/quic-go"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/qtls"
+	"github.com/Yuzuki616/quic-go/internal/utils"
+	"github.com/Yuzuki616/quic-go/quicvarint"
 
 	"github.com/quic-go/qpack"
 )

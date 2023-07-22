@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
+	"github.com/Yuzuki616/quic-go"
+	"github.com/Yuzuki616/quic-go/http3"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

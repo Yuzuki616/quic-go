@@ -7,14 +7,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/mocks"
-	mockackhandler "github.com/quic-go/quic-go/internal/mocks/ackhandler"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/Yuzuki616/quic-go/internal/ackhandler"
+	"github.com/Yuzuki616/quic-go/internal/handshake"
+	"github.com/Yuzuki616/quic-go/internal/mocks"
+	mockackhandler "github.com/Yuzuki616/quic-go/internal/mocks/ackhandler"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/qerr"
+	"github.com/Yuzuki616/quic-go/internal/utils"
+	"github.com/Yuzuki616/quic-go/internal/wire"
 
 	"github.com/golang/mock/gomock"
 

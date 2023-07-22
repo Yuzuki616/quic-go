@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/Yuzuki616/quic-go/internal/utils"
 )
 
 // UDP_SEGMENT controls GSO (Generic Segmentation Offload)
