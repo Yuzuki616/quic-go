@@ -8,8 +8,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/testdata"
+	"github.com/Yuzuki616/quic-go/internal/testdata"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -12,8 +12,6 @@ import (
 	"sync"
 
 	"golang.org/x/net/http/httpguts"
-
-	"github.com/quic-go/quic-go"
 )
 
 // declare this as a variable, such that we can it mock it in the tests

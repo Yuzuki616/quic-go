@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	list "github.com/quic-go/quic-go/internal/utils/linkedlist"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/utils"
+	list "github.com/Yuzuki616/quic-go/internal/utils/linkedlist"
 )
 
 type sentPacketHistory struct {

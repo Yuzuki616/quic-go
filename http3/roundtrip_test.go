@@ -10,9 +10,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	mockquic "github.com/quic-go/quic-go/internal/mocks/quic"
-	"github.com/quic-go/quic-go/internal/qerr"
+	mockquic "github.com/Yuzuki616/quic-go/internal/mocks/quic"
+	"github.com/Yuzuki616/quic-go/internal/qerr"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo/v2"

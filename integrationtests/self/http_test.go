@@ -14,10 +14,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/testdata"
+	"github.com/Yuzuki616/quic-go/http3"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/testdata"
 	"golang.org/x/sync/errgroup"
 
 	. "github.com/onsi/ginkgo/v2"

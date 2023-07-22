@@ -3,10 +3,9 @@ package self_test
 import (
 	"context"
 	"fmt"
+	"github.com/Yuzuki616/quic-go"
 	"net"
 	"testing"
-
-	"github.com/quic-go/quic-go"
 )
 
 func BenchmarkHandshake(b *testing.B) {

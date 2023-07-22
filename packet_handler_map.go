@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/utils"
+	"github.com/Yuzuki616/quic-go/internal/wire"
+	"github.com/Yuzuki616/quic-go/logging"
 )
 
 // rawConn is a connection that allow reading of a receivedPacket.
@@ -419,7 +419,7 @@ func (h *packetHandlerMap) listen() {
 		//nolint:staticcheck // SA1019 ignore this!
 		// TODO: This code is used to ignore wsa errors on Windows.
 		// Since net.Error.Temporary is deprecated as of Go 1.18, we should find a better solution.
-		// See https://github.com/quic-go/quic-go/issues/1737 for details.
+		// See https://github.com/Yuzuki616/quic-go/issues/1737 for details.
 		if nerr, ok := err.(net.Error); ok && nerr.Temporary() {
 			h.logger.Debugf("Temporary error reading from conn: %w", err)
 			continue

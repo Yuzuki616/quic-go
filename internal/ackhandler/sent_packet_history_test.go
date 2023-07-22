@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/utils"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

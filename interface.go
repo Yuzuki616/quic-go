@@ -7,11 +7,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/Yuzuki616/quic-go/internal/handshake"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/logging"
 
-	"github.com/quic-go/quic-go/congestion"
+	"github.com/Yuzuki616/quic-go/congestion"
 )
 
 // The StreamID is the ID of a QUIC stream.

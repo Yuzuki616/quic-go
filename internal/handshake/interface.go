@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qtls"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/qtls"
+	"github.com/Yuzuki616/quic-go/internal/wire"
 )
 
 var (

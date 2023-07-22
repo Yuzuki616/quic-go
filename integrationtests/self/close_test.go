@@ -3,13 +3,13 @@ package self_test
 import (
 	"context"
 	"fmt"
+	"github.com/Yuzuki616/quic-go"
 	"net"
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	quicproxy "github.com/quic-go/quic-go/integrationtests/tools/proxy"
-	"github.com/quic-go/quic-go/internal/protocol"
+	quicproxy "github.com/Yuzuki616/quic-go/integrationtests/tools/proxy"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

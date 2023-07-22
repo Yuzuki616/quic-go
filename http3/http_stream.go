@@ -2,8 +2,6 @@ package http3
 
 import (
 	"fmt"
-
-	"github.com/quic-go/quic-go"
 )
 
 // A Stream is a HTTP/3 stream.

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/Yuzuki616/quic-go/internal/ackhandler"
+	"github.com/Yuzuki616/quic-go/internal/protocol"
+	"github.com/Yuzuki616/quic-go/internal/wire"
+	"github.com/Yuzuki616/quic-go/quicvarint"
 )
 
 type framer interface {
